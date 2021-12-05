@@ -434,12 +434,12 @@ p {
 
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent black !important;
-  right: 45px !important;
+  right: 100px !important;
 }
 
 .fp-controlArrow.fp-prev {
   border-color: transparent black transparent transparent !important;
-  left: 45px !important;
+  left: 100px !important;
 }
 
 #fp-nav ul li a span,
@@ -763,7 +763,7 @@ label {
     -webkit-text-stroke-color: rgba(255, 255, 255, 0);
 }
   p{
-    font-size:17px;
+    font-size:16px;
     padding-right:5%;
     padding-left:5%;
   }
@@ -794,12 +794,14 @@ label {
     border-color: transparent transparent transparent black !important;
     right: 15px !important;
     margin-top:10%;
+    transform: scale(0.6);
   }
   
   .fp-controlArrow.fp-prev {
     border-color: transparent black transparent transparent !important;
     left: 15px !important;
     margin-top:10%;
+    transform: scale(0.6);
 
   }
 
