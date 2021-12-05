@@ -773,10 +773,10 @@ label {
 }
 
 .app{
-  padding-right:10%;
-  padding-left:10%;
+  padding-right:7%;
+  padding-left:7%;
   text-shadow: 3px 3px 3px rgba(23, 22, 22, 0.158);
-
+  letter-spacing: 2px;
 }
 
 .need{
@@ -812,5 +812,15 @@ label {
   .contact-form{
     width:70%;
   }
- 
+ .pic{
+   width:180px;
+ }
+ .content-slide .pink{
+  transform: rotate(270deg);
+  width:90%;
+  padding:15px;
+ }
+ .transparent{
+   color:transparent;
+ }
 }
