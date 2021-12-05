@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Rio Castillo</title>
+  <meta name="description" content="software engineer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+<link
+href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Tourney:ital,wght@1,400&family=Londrina+Solid:wght@900&family=Rock+Salt&display=swap"
+rel="stylesheet">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <!-- navbar header -->
+  <div class="nav-header">
+    <div class="nav-brand" style="display:none" >
+      <img src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/bradlogo2.png">
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar header -->
+
+  <!-- sidebar slider -->
+  <div class="nav-screen">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+          <li data-menuanchor="thirdPage"><a href="#portfolio">WORK</a></li>
+          <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end navbar slider -->
+
+  <!-- begin fullpage -->
+
+  <div id="fullpage">
+
+    <!-- begin section -->
+
+    <div class="section aboutme" data-anchor="aboutme">
+      <div class="opaque-bg animated fadeInDown">
+        <h1 class="name" style="color:white">RIO<span style="color:#611dff">/</span>CASTILLO</h1>
+        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="skills">
+      <div class="content">
+        <br><br>
+        <img src="me.png" class="pic" >
+        <h1 class="rio" class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Rio!</h1>
+        <p class="bio" class="wow fadeInDown" data-wow-delay="0.2s" >I'm a fullstack software engineer with Resilient Coders. I believe in the simplicity of radical truth-telling and believe that tech and art teach us about the vastness of creation. I grew up navigating multiple languges (Quechua, Spanish, and English) since the day I was born and it's given me a passion to learn about what connections lie in the fabric of our everyday lives. <br><br>
+          <span style="color: black">
+          My intent as an engineer is to deliver powerful products that users can both relate to and foster real connections from. I’d like to fuse my talents as an engineer and artist, and dig my feet into the infinite possibilities of what tech can do for people.</span><br><br><a href="2021Resume.pdf"> View my resume.</a></p>
+
+        <div style="display:none"  class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+          <div class="skillbar clearfix " data-percent="90%">
+            <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
+            <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+            <div class="skill-bar-percent">90%</div>
+          </div> 
+
+          <div style="display:none"  class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
+            <div class="skillbar-bar" style="background: #EBB035;"></div>
+            <div class="skill-bar-percent">80%</div>
+          </div> 
+
+          <div style="display:none"  class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #218559;"><span>Photoshop</span></div>
+            <div class="skillbar-bar" style="background: #218559;"></div>
+            <div class="skill-bar-percent">75%</div>
+          </div> 
+
+
+          <div style="display:none" class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #06A2CB;"><span>jQuery</span></div>
+            <div class="skillbar-bar" style="background: #06A2CB;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div> 
+
+          
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="projects">
+      <div class="content-slide">
+        <div class="slide">
+          <h1 class="app wow fadeInDown" data-wow-delay="0.2s">Love Notes for Black and Brown kids</h1>
+          <p class="text" class="app" class="wow fadeInDown" data-wow-delay="0.2s" >Fullstack app where users can access, update, and interact with a messageboard filled with affirmations, love letters, and reminders to Black and Brown kids. Made using CSS, Javascript, Node.js, JSON, Express, EJS, & MongoDB.</p>
+          <a href="https://github.com/riocastillo/affirmations-express"><img class="wow fadeInUp" data-wow-delay="0.2s" data-src="love.gif"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Hooked and Rewired</h1>
+          <p class="text" class="app" >A fullstack app designed to help people who are trying to break bad habits and strengthen their practices. Made using CSS, Javascript, Node.js, APIs, JSON, Express, EJS, Sass, MongoDB, Multer, and User Authentification using passport.</p>
+          <a href="https://github.com/riocastillo/hooked-and-rewired-app"><img data-src="hooked.gif"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Bilingual and Bidirectional Translator</h1>
+          <p class="text" class="app" >User can input a word in either English or Spanish and receive a translation in the opposite language, along with a picture and an image description of the generated translation. Made using HTML, CSS, Javascript, APIs and JSON.</p>
+          <a href="https://github.com/riocastillo/bilingual-and-bidirectional-translator"><img data-src="translator.gif"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Mercury Retrograde API</h1>
+          <p class="text" class="app" >App where a user can enter a date - past, present, or future - and see if that date is within a mercury retrograde. Made using HTML, CSS, Javascript, API and JSON.</p>
+          <a href="https://github.com/riocastillo/mercury-retrograde-api"><img data-src="retrograde.png"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Wu-tang Name Generator</h1>
+          <p class="text" class="app">In this web app, the user is presented with 5 survey questions and based on those answers, the site will randomly generate their Wu-tang name. Made using HTML, CSS, Javascript.</p>
+          <a href="https://wu-tang-generator.netlify.app/"><img data-src="wu.gif"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Palindrome Checker</h1>
+          <p class="text" class="app">A simple web application that uses fs and http modules to validate if a string is a palindrome. Made using EJS, CSS, Javascript, Express, and Node.</p>
+          <a href="https://github.com/riocastillo/node-palindrome"><img data-src="palidrome.gif"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Barista App</h1>
+          <p class="text" class="app">App that enables cashiers to enter the customer's name + order and add it to a queue that baristas can sign in and mark the order complete. Made using CSS, Javascript, Node.js, JSON, Express, EJS, MongoDB, Mongoose, and User Authentification using passport.</p>
+          <a href="https://github.com/riocastillo"><img data-src="barista.gif"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Social Networking App</h1>
+          <p class="text" class="app">A fullstack social media app with User Login where users can signup or login to their account, post and add to the "feed" of other uses posts, and like/comment on other people's posts. Made using CSS, Javascript, Node.js, Express, MongoDB, Multer, and User Authentification using passport.</p>
+          <a href="https://github.com/riocastillo/social-networking-app"><img data-src="social.png"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Personal artwork</h1>
+          <p>You can view more of my commissioned design work <a href="https://drive.google.com/drive/folders/1nDZuSw9D6wxPXf7pLfNalJhydKtwr0vt?usp=sharing">here.</p></a>
+          <a href="ifeel.jpg"><img data-src="ifeel.jpg" class="square"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Personal artwork</h1>
+          <p>You can view more of my commissioned design work <a href="https://drive.google.com/drive/folders/1nDZuSw9D6wxPXf7pLfNalJhydKtwr0vt?usp=sharing">here.</p></a>
+          <a href="pinkme.png"><img data-src="pinkme.png"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Personal artwork</h1>
+          <p>You can view more of my commissioned design work <a href="https://drive.google.com/drive/folders/1nDZuSw9D6wxPXf7pLfNalJhydKtwr0vt?usp=sharing">here.</p></a>
+          <a href="people.png"><img data-src="people.png" class="square"></a>
+        </div>
+        <div class="slide">
+          <h1 class="app">Personal artwork</h1>
+          <p>You can view more of my commissioned design work <a href="https://drive.google.com/drive/folders/1nDZuSw9D6wxPXf7pLfNalJhydKtwr0vt?usp=sharing">here.</p></a>
+          <a href="slippery.png"><img data-src="slippery.png"></a>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="contact">
+      <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <br><br>
+        <h1 class="need">NEED A SERVICE?</h1>
+        <p CLASS="servicep">Hit me up! I'm open to brainstorming and collaborating on visions that best meet your needs for software development and/or art.</p>
+        <br>
+        <div class="contact-form">
+          <div id="form-messages"></div>
+            <div class="fields">
+          <form action="/thank-you" data-netlify="true" name="contact"  method="post" role="form" action="contact.php" data-toggle="validator">
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+              <textarea class="form-control" id="message" name="message" placeholder="MESSAGE" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="hidden">
+              <input type="text" class="form-control" id="human" name="human" placeholder="">
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button class = "actions" type="submit" value="Send your message"  id="submit" class="sendmessage" type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+            </div>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section fp-auto-height">
+      <div class="footer">
+        <p>CONNECT WITH ME!</p>
+        <div class="social-links">
+          <span><a href="https://www.linkedin.com/in/rio-acuna-castillo-1a2b5621a/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+          <span><a target="_blank" href="https://twitter.com/rio_a_castillo" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
+          <span><a href="https://github.com/riocastillo" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+         
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+  </div>
+  <!-- end fullpage -->
+</body>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
